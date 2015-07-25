@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wellsen.todomanager.ToDoManagerActivity">
+    <item
+        android:id="@+id/action_add"
+        android:title="@string/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/action_delete_all"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/action_dump"
+        android:title="@string/action_dump"
+        android:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:showAsAction="never">
+    </item>
+</menu>

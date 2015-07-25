@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ToDoManagerActivity">
+    <item android:id="@+id/action_edit"
+        android:title="@string/action_edit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
+</menu>
